@@ -51,7 +51,7 @@ public class Sprite {
 		this.xVelocity = xVelocity;
 	}
 
-	public void setyVelocty(int yVelocity) {
+	public void setyVelocity(int yVelocity) {
 		this.yVelocity = yVelocity;
 	}
 
