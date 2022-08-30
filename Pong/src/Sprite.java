@@ -65,7 +65,7 @@ public class Sprite {
 		this.colour = colour;
 	}
 	
-	public void setXPosition(int newX) {
+	public void setXPosition(int newX, int panelWidth) {
 		xPosition = newX;
 		if (xPosition < 0) {
 			xPosition = 0;
@@ -74,7 +74,7 @@ public class Sprite {
 		}
 	}
 	
-	public void setYPosition(int newY) {
+	public void setYPosition(int newY, int panelHeight) {
 		yPosition = newY;
 		if (yPosition < 0) {
 			yPosition = 0;
@@ -89,7 +89,7 @@ public class Sprite {
 	}
 
 	public void resetToInitialPosition () {
-		setXPosition(initialXPosition);
+		setxPosition(initialXPosition);
 		setyPosition(initialYPosition);
 	}
 	
